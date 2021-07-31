@@ -26,8 +26,8 @@
                     投稿日時
                 </span>
             </div>
-        @endforeach
         </div>
+        @endforeach
     </div>
     
 @endsection('content')
