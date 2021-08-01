@@ -4,7 +4,7 @@
 
     <div class="container mt-4">
         <div class="mb-4">
-            <a href="{{ route('posts.create')}}" class="btn btn-primary">
+            <a href="{{ route('posts.create') }}" class="btn btn-primary">
                 投稿を新規作成
             </a>
             
@@ -17,7 +17,7 @@
             </div>
             <div class="card-body">
                 <p class="card-text">
-                    {{$post->body }}
+                    {{ $post->body }}
                 </p>
                 
             </div>
