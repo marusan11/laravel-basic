@@ -21,7 +21,7 @@
             </div>
         </div>
          
-        <div class="mt-4 text-right">
+        <div class="mt-4 text-end">
             <a class="btn btn-primary" href="{{ route('posts.edit', ['post' => $post]) }}">
                 編集
             </a>
